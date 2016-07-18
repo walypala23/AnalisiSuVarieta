@@ -29,13 +29,13 @@ Configurare git:
 		git config --global credential.helper store
 
 Registrarsi su github (in questa guida verrà usato l'utente "giorgio", che dovrete cambiare con il vostro nome utente).
-Mandare una mail a me (Federico Glaudo) o comunicarmi in qualche modo il nome utente che avete scelto
+Mandare una mail a me (Giada Franz) o comunicarmi in qualche modo il nome utente che avete scelto
 (ovviamente facendomi capire chi siete) e aspettare mia conferma prima di procedere (vi devo aggiungere al progetto).
 
 Aprire un terminale (o git-bash) nel percorso in cui volete salvare il repository.
 Date il seguente comando
-	git clone https://giorgio@github.com/dario2994/appunti-condivisi.git
+	git clone https://giorgio@github.com/walypala23/AnalisiSuVarieta.git
 
-Questo creerà una cartella appunti-condivisi dove troverete la vostra copia del repo.
+Questo creerà una cartella AnalisiSuVarieta dove troverete la vostra copia del repo.
 	
 

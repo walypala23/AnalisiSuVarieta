@@ -6,30 +6,28 @@ Sappiate che se avete seguito install.txt ora avete quasi pieni poteri sul
 repository appunti-condivisi. Intendo che ora potete modificare tutti i file 
 (e intendo anche cancellarli) che si trovano sul repository e le vostre modifiche
 saranno effettive su tutte le copie locali dei repository. 
-Come sapete da grandi poteri derivano grandi responsabilità... state attenti e non
-fate cazzate.
+Come sapete da grandi poteri derivano grandi responsabilità...
 Allo stesso tempo sappiate che voi NON avete pieni poteri... nel senso che qualsiasi
-modifica voi facciate io (Federico Glaudo) posso annullarla. In particolare quindi
+modifica voi facciate io (Giada Franz) posso annullarla. In particolare quindi
 se cancellate un file per errore e non riuscite più a rimetterlo (cosa che comunque
 dovreste poter fare) non è un dramma... tutto si risolve. La cosa grave che potete
-fare è mettere un documento che non volete stia online (ad esempio una vostro foto
-nudi oppure una vostra password). In questo caso è *davvero* difficile togliere
+fare è mettere un documento che non volete stia online (ad esempio una vostra password).
+In questo caso è *davvero* difficile togliere
 quello che avete messo dalla history. Meno grave, ma comunque da evitare, è mettere
 file pesante sul repo online, perchè appesantiscono tutto.
 
 Git è un software di controllo di versione distribuito (citazione da wiki). 
 Questo vuol dire che fondamentalmente dà la possibilità ad un gruppo di persone
 di avere dei file "in comune" e di tenere una storia degli aggiornamenti che
-subiscono questi file. È molto comodo per tenere ad esempio degli appunti condi-
-visi (infatti non siamo i primi a pensarci).
+subiscono questi file.
 
 Un repository è una cartella che però tiene una history di se stessa.
-In particolare la cartella appunti-condivisi è un repository. Inoltre è un
+In particolare la cartella AnalisiSuVarieta è un repository. Inoltre è un
 repository che è sincronizzato con una versione online dello stesso. Questo vuol dire
-che quello che voi farete nella cartella appunti-condivisi, dando gli opportuni comandi
+che quello che voi farete nella cartella AnalisiSuVarieta, dando gli opportuni comandi
 verrà mandato al server e noi altri potremo vederlo. Allo stesso tempo, voi potrete
-aggiornare la vostra versione di appunti-condivisi dando gli opportuni comandi.
-Ci tengo a dire che quello che fate nella cartella appunti-condivisi resta sul vostro
+aggiornare la vostra versione di AnalisiSuVarieta dando gli opportuni comandi.
+Ci tengo a dire che quello che fate nella cartella AnalisiSuVarieta resta sul vostro
 pc A MENO CHE voi non diate comandi opportuni che lo mandano sul server. E allo stesso
 tempo la versione che voi avete resta "vecchia" a meno che voi non diciate esplicitamente
 di aggiornarla.
@@ -50,7 +48,7 @@ Tutti i comandi che seguono devono essere lanciati da dentro la cartella locale
 corrispondente al repository.
 	
 git add FILE
-	Quando create un file nella cartella appunti-condivisi, se volete che git inizi
+	Quando create un file nella cartella AnalisiSuVarieta, se volete che git inizi
 	a controllare anche questo file (in particolare a mandarlo sul server) dovete
 	dare questo comando. Se avete creato molti file e volete che vengano tutti
 	addati, date il comando 
@@ -109,7 +107,7 @@ GUIDA TECNICA SITO github
 
 Se proprio odiate il terminale potete fare tutto quello che vi serve anche dal
 sito:
-	https://github.com/dario2994/appunti-condivisi
+	https://github.com/walypala23/AnalisiSuVarieta
 
 Potete aggiungere file, modificarli e committare.
 Attenzione perchè se modificate dal sito ogni singola modifica che fate (e committate
